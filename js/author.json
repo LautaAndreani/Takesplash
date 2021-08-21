@@ -1,0 +1,151 @@
+[
+    {
+    "download": "https://images.unsplash.com/photo-1629299781401-9bc8dc6f9e09?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=691&q=80",
+    "author_img": "img/author-1.jpg",
+    "author": "Rizky",
+    "image": "img/image-1.jpg"
+    },
+    {
+    "download": "https://images.unsplash.com/photo-1500072318620-319a84745683?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80",
+    "author_img": "img/author.jpg",
+    "author": "Lautaro",
+    "image": "img/lautaroPhoto-4.jpg"
+    },
+    {
+    "download": "https://images.unsplash.com/photo-1629312493233-5f4b5836833c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+    "author_img": "img/author-3.jpg",
+    "author": "Gwenn",
+    "image": "img/image-3.jpg"
+    },
+    {
+    "download": "https://images.unsplash.com/photo-1591052680592-b82b85ce83e5?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb",
+    "author_img": "img/author.jpg",
+    "author": "Lautaro",
+    "image": "img/lautaroPhoto-3.jpg"
+    },
+    {
+    "download": "https://images.unsplash.com/photo-1629232901320-1ebe12f93837?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+    "author_img": "img/author-4.jpg",
+    "author": "Kristaps",
+    "image": "img/image-5.jpg"
+    },
+    {
+    "download": "https://images.unsplash.com/photo-1629128626548-31f74fd65efa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+    "author_img": "img/author-6.jpg",
+    "author": "Lerone",
+    "image": "img/image-6.jpg"
+    },
+    {
+    "download": "https://images.unsplash.com/photo-1629199325290-9152ef5d4fa8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+    "author_img": "img/author-8.jpg",
+    "author": "Kate",
+    "image": "img/image-8.jpg"
+    },
+    {
+    "download": "https://images.unsplash.com/photo-1629128626548-31f74fd65efa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+    "author_img": "img/author-6.jpg",
+    "author": "Lerone",
+    "image": "img/image-6.jpg"
+    }
+]
+<!-- <div class="gallery__item">
+        <a href="https://images.unsplash.com/photo-1629299781401-9bc8dc6f9e09?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=691&q=80" target="_blank" class="gallery__link" download="">
+          <button class="gallery__download">
+            <img src="img/download.svg" alt="">
+          </button>
+        </a>
+        <p class="gallery__author">
+          <img src="img/author-1.jpg" alt="" class="gallery__profile">
+          Rizky
+        </p>
+        <img src="img/image-1.jpg" alt="" class="gallery__img">
+      </div>
+      <div class="gallery__item">
+        <a href="https://images.unsplash.com/photo-1500072318620-319a84745683?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80" target="_blank" class="gallery__link" download="">
+          <button class="gallery__download">
+            <img src="img/download.svg" alt="">
+          </button>
+        </a>
+        <p class="gallery__author">
+          <img src="img/author.jpg" alt="" class="gallery__profile">
+          Lautaro
+        </p>
+        <img src="img/lautaroPhoto-4.jpg" alt="" class="gallery__img">
+      </div>
+      <div class="gallery__item">
+        <a href="https://images.unsplash.com/photo-1629312493233-5f4b5836833c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" target="_blank" class="gallery__link" download="">
+          <button class="gallery__download">
+            <img src="img/download.svg" alt="">
+          </button>
+        </a>
+        <p class="gallery__author">
+          <img src="img/author-3.jpg" alt="" class="gallery__profile">
+          Gwenn
+        </p>
+        <img src="img/image-3.jpg" alt="" class="gallery__img">
+      </div>
+      <div class="gallery__item">
+        <a href="https://images.unsplash.com/photo-1591052680592-b82b85ce83e5?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb" target="_blank" class="gallery__link" download="">
+          <button class="gallery__download">
+            <img src="img/download.svg" alt="">
+          </button>
+        </a>
+        <p class="gallery__author">
+          <img src="img/author.jpg" alt="" class="gallery__profile">
+          Lautaro
+        </p>
+        <img src="img/lautaroPhoto-3.jpg" alt="" class="gallery__img">
+      </div>
+      <div class="gallery__item">
+        <a href="https://images.unsplash.com/photo-1629232901320-1ebe12f93837?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" target="_blank" class="gallery__link" download="">
+          <button class="gallery__download">
+            <img src="img/download.svg" alt="">
+          </button>
+        </a>
+        <p class="gallery__author">
+          <img src="img/author-4.jpg" alt="" class="gallery__profile">
+          Kristaps
+        </p>
+        <img src="img/image-5.jpg" alt="" class="gallery__img">
+      </div>
+      <div class="gallery__item">
+        <a href="https://images.unsplash.com/photo-1629128626548-31f74fd65efa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" target="_blank" class="gallery__link" download="">
+          <button class="gallery__download">
+            <img src="img/download.svg" alt="">
+          </button>
+        </a>
+        <p class="gallery__author"><img src="img/author-6.jpg" alt="" class="gallery__profile">Lerone</p>
+        <img src="img/image-6.jpg" alt="" class="gallery__img">
+      </div>
+      <div class="gallery__item">
+        <a href="https://images.unsplash.com/photo-1629199325290-9152ef5d4fa8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" target="_blank" class="gallery__link" download="">
+          <button class="gallery__download">
+            <img src="img/download.svg" alt="">
+          </button>
+        </a>
+        <p class="gallery__author">
+          <img src="img/author-8.jpg" alt="" class="gallery__profile">Kate</p>
+        <img src="img/image-8.jpg" alt="" class="gallery__img">
+      </div>
+      <div class="gallery__item">
+        <a href="https://images.unsplash.com/photo-1629363726783-6e42c6e5f9fc?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb" target="_blank" class="gallery__link" download="">
+          <button class="gallery__download">
+            <img src="img/download.svg" alt="">
+          </button>
+        </a>
+        <p class="gallery__author">
+          <img src="img/author-2.jpg" alt="" class="gallery__profile">Nicolas</p>
+        <img src="img/image-2.jpg" alt="" class="gallery__img">
+      </div>
+      <div class="gallery__item">
+        <a href="https://images.unsplash.com/photo-1629215187834-b1bdd57c491a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" target="_blank" class="gallery__link" download="">
+          <button class="gallery__download">
+            <img src="img/download.svg" alt="">
+          </button>
+        </a>
+        <p class="gallery__author">
+          <img src="img/author-5.jpg" alt="" class="gallery__profile">
+          Nico
+        </p>
+        <img src="img/image-4.jpg" alt="" class="gallery__img">
+      </div> -->
