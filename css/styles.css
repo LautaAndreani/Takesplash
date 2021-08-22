@@ -1,5 +1,5 @@
 :root {
-  --bg: #1b1f2d;
+  --bg: #111;
   --text: #f7f9fc;
   --hoverInput: #b2b2b2;
   --hoverDownload: #2b2f3a;
@@ -13,6 +13,35 @@
 
 body {
   background-color: var(--bg);
+}
+
+/* Load Animation */
+.load {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #111;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  transition: 0.2s ease-in-out;
+}
+.maximize {
+  animation: 2s loadAnimation ease-in-out alternate infinite;
+}
+
+@keyframes loadAnimation {
+  to {
+    transform: scale(0.8);
+  }
+  from {
+    opacity: 0;
+    transform: scale(1);
+  }
 }
 
 .header {
@@ -43,7 +72,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: black;
+  background-color: rgb(36, 36, 36);
   opacity: 0.4;
   z-index: -1;
 }
@@ -61,16 +90,16 @@ body {
 }
 
 .input {
-  background-color: var(--inputBackground);
-  border-radius: 5px;
+  background-color: #111;
+  border-radius: 4px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   overflow: hidden;
-  transition: 0.2s ease-in-out;
 }
 
 ::placeholder {
+  color: gray;
   font-size: clamp(0.8rem, 1.5vw, 1rem);
 }
 
@@ -80,7 +109,7 @@ body {
   border: none;
   min-height: 3rem;
   outline: none;
-  color: var(--hoverDownload);
+  color: var(--text);
   font-weight: 500;
 }
 
@@ -91,11 +120,6 @@ body {
 .input__text {
   padding: 0 10px;
   width: 100%;
-  transition: 0.2s ease-in-out;
-}
-
-.input:hover {
-  outline: 4px solid rgb(31, 31, 31, 0.5);
 }
 
 /* InputUser */
@@ -117,7 +141,7 @@ body {
 /* ErroNoti */
 .message {
   z-index: 10;
-  position: absolute;
+  position: fixed;
   text-align: center;
   width: 15rem;
   padding: 10px 20px;
@@ -130,8 +154,9 @@ body {
   top: 30px;
   transform: translateY(-200%);
   line-height: 1.5rem;
-  font-weight: 700;
+  font-weight: 600;
   transition: 0.3s ease-in-out;
+  border: 0.5px solid gray;
 }
 
 .alert {
@@ -259,18 +284,19 @@ body {
 
 .footer__signature {
   text-align: center;
-  color: var(--text);
   margin: 3rem 0;
+  color: var(--text);
 }
 
 .footer__signature a {
   text-decoration: none;
-  color: lightgray;
-  transition: var(--smooth);
+  color: var(--text);
+  font-weight: 500;
 }
 
 .footer__signature a:hover {
-  border-bottom: 1px solid gray;
+  color: var(--text);
+  border-bottom: 1px solid lightgray;
 }
 
 @media screen and (max-width: 1024px) {
